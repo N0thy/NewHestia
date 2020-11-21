@@ -836,7 +836,7 @@
 	name = "Wisp"
 	icon_state = "hair_wisp"
 
-/datum/sprite_accessory/hair/zone
+/datum/sprite_accessory/hair/zone 
 	name = "Zone"
 	icon_state = "hair_zone"
 
@@ -846,22 +846,3 @@
 /datum/sprite_accessory/hair/shortwavy
 	name = "Short Wavy"
 	icon_state = "hair_shortwavy"
-
-/datum/sprite_accessory/hair/anomaly
-	name = "Anomaly"
-	icon_state = "hair_anomaly"
-	flags = HAIR_TIEABLE
-
-/datum/sprite_accessory/hair/cerberus
-	name = "Cerberus"
-	icon_state = "hair_cerberus"
-	flags = HAIR_TIEABLE
-
-/datum/sprite_accessory/hair/himecutponytail
-	name = "Himecut long ponytail"
-	icon_state = "himecut_long_ponytail"
-	flags = HAIR_TIEABLE
-
-/datum/sprite_accessory/hair/bedhead
-	name = "Bedhead"
-	icon_state = "hair_bedhead"
