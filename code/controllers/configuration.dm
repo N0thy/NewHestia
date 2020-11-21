@@ -241,8 +241,8 @@ var/list/gamemode_cache = list()
 	var/act_interval = 0.1 SECONDS //Interval for spam prevention.
 
 	var/job_whitelist = FALSE //Do we use the job whitelist? Set to false so devs don't have to set config options.
-	var/panic_bunker = FALSE //is the panic bunker enabled?
-	var/panic_bunker_message = "Sorry! The panic bunker is enabled. Please head to our discord to get yourself added to the panic bunker bypass."
+	var/panic_bunker = TRUE //is the panic bunker enabled?
+	var/panic_bunker_message = "Lo siento! El bunker de panico está activo. Unete al Discord para solicitar el acceso."
 	var/delist_population = 60 //What population do we automatically take ourselves off to hub at?
 	var/pb_population = 80 //What population do we automatically engage the panic bunker at?
 	var/announce_gamemode = FALSE //Do we annouce the game mode or not?
