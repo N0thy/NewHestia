@@ -114,6 +114,12 @@
 	path = /obj/item/clothing/head/beret/solgov/expedition
 	allowed_branches = NT_BRANCHES
 
+/datum/gear/head/pilothelmet
+	display_name = "Casco Aviador"
+	path = /obj/item/clothing/mask/pilothelmet
+	slot = slot_wear_mask
+	allowed_branches = NT_BRANCHES
+
 datum/gear/head/ECdepartment/New()
 	..()
 	var/berets = list()
